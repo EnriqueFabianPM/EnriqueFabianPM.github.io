@@ -1,0 +1,150 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f9;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: #24292f;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid #fff;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+header p {
+    max-width: 600px;
+    margin: 0 auto 1rem auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: #2ea44f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2c974b;
+}
+
+/* Secciones */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    border-left: 5px solid #2ea44f;
+    padding-left: 0.5rem;
+}
+
+/* Lista de proyectos */
+#proyectos ul {
+    list-style: none;
+}
+
+#proyectos li {
+    margin: 0.5rem 0;
+}
+
+#proyectos a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+#proyectos a:hover {
+    text-decoration: underline;
+}
+
+/* Línea de tiempo académica */
+.timeline {
+    border-left: 3px solid #2ea44f;
+    padding-left: 1rem;
+}
+
+.timeline-item {
+    margin-bottom: 1.5rem;
+}
+
+.timeline-item h3 {
+    color: #2ea44f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #24292f;
+    color: white;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Botón GitHub */
+.social-links .github {
+    background: #333;
+}
+.social-links .github:hover {
+    background: #555;
+}
+
+/* Botón LinkedIn */
+.social-links .linkedin {
+    background: #0a66c2;
+}
+.social-links .linkedin:hover {
+    background: #004182;
+}
